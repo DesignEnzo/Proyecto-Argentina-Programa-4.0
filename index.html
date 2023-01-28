@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Portafolio Enzo Sorrenti</title>
+
+    <link rel="shortcut icon" href="Logo.jpg">
+    <link rel="stylesheet" href="style.css">
+    <!--TIpografia de Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+
+    <!--Libreria de Animaciones con Scroll-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/c21ed3aa07.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!--Libreria de las particulas-->
+    <div id="particles-js"></div>
+
+
+    <!--Seccion Inicio-->
+    <section class="inicio" id="inicio">
+        <div class="texto-inicio">
+            <h1>Mi nombre es <b>Enzo Sorrenti</b></h1>
+            <h3>Desarrollador Web FrontEnd</h3>
+            <div class="boton-inicio">
+                <a href="#sobre-mi">Conocer Mas</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Seccion Header-->
+    <header>
+        <!--DarkMode-->
+        <div class="dark_mode">
+            <button class="dark__mode"><i class="fas fa-moon"></i></button><!--Boton para activar modo oscuro-->
+            <button class="dark__mode_2"><i class="fas fa-moon"></i></button><!--Boton para desactivar modo oscuro-->
+        </div>
+        <div class="boton-menu"><img id="boton-icono" src="icono-menu.png"></div> <!--Boton para desplegar menu-->
+        <div class="boton-menu-2"><img id="boton-icono-2" src="icono-menu.png"></div> <!--Boton para ocultar menu-->
+        <nav>
+            <ul class="lista-enlaces">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+                <!--Header Responsive-->
+            <ul class="lista-enlaces-responsive">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre-mi">Sobre Mi</a></li>
+                <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+             </ul>
+
+        </nav>
+    </header>
+
+    <!--Seccion Sobre Mi-->
+    <section class="sobre-mi" id="sobre-mi">
+        <div class="texto-titulo-sobre-mi" data-aos="fade-right" data-aos-duration="2000">
+            <h1 id="sobre-mi-titulo">Sobre Mi</h1>
+            <div class="header-bar"></div>
+        </div>
+    <div class="contenido_sobre-mi" data-aos="fade-up"data-aos-anchor-placement="top-bottom">
+        <div class="texto-sobre-mi">
+            <img src="perfil.png" alt="foto de perfil">
+            <p id="texto-presentacion">Mi nombre es <b style="color: #04c2c9">Enzo Sorrenti</b>, tengo 17 años y soy argentino. Hace un par de meses que empeze a aprender programacion orientada al Desarrollo Web FrontEnd y un poco de diseño grafico de forma autodidacta. La realidad es que me cuesta bastante ya que no cuento con una PC propia y cada vez que quiero aprender o practicar debo esperar mi "turno" en la computadora de mi familia. Ademas este año 2023 ingresare a la "Facultad de Ingenieria" de la UNMDP para estudiar Ingenieria Informatica, ya que el año paso realize y aprobe los examenes de ingreso en las tres materias (Fisica, Quimica y Matematicas) Por ultimo me considero una persona muy responsable e inteligente que seguira estudiando hasta algun dia ser un Programador de Alto Nivel y tambien convertirme en profesor.</p>
+        </div>
+
+        <div class="habilidades-container">
+            <h1>Habilidades</h1>
+            <li><h3>HTML</h3>
+
+                <span class="bar"><span class="html"></span></span>
+            
+            </li>
+
+            <li><h3>CSS</h3>
+                
+                <span class="bar"><span class="css"></span></span>
+
+            </li>
+
+            <li><h3>JAVASCRIPT</h3>
+            
+                <span class="bar"><span class="js"></span></span>
+
+            </li>
+            <li><h3>PHOTOSHOP</h3>
+            
+                <span class="bar"><span class="photoshop"></span></span>
+            
+            </li>
+        </div>
+    </div>
+    </section>
+
+    <!--Seccion proyectos-->
+    <section id="proyectos">
+        <h1 class="proyectos-h1" data-aos="fade-left">Proyectos</h1>
+        <div class="header-bar-2" data-aos="fade-left"></div>
+        <h3 class="proyectos-h3" data-aos="fade-left">En esta seccion se encuentra una galeria hecha por mi pero con proyectos de otros desarrolladores.</h3>
+        <div class="grid-container" data-aos="flip-up">
+
+            <div class="grid-item">
+                    <div class="item-1">
+                        <h2>Proyecto 1</h2>
+                        <h3><a href="https://malvestida.com/">Visitar</a></h3>
+                    </div>
+            </div>
+    
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Proyecto 2</h2>
+                    <h3><a href="https://giphy.com/">Visitar</a></h3>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Projecto 3</h2>
+                    <h3><a href="https://medium.com/">Visitar</a></h3>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Proyecto 4</h2>
+                    <h3><a href="https://cerveceriadecolima.com/">Visitar</a></h3>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Proyecto 5</h2>
+                    <h3><a href="https://www.airbnb.es/">Visitar</a></h3>
+                </div>
+            </div>
+            
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Proyecto 6</h2>
+                    <h3><a href="https://www.garysheng.com/">Visitar</a></h3>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Proyecto 7</h2>
+                    <h3><a href="https://seanhalpin.io/">Visitar</a></h3>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Proyecto 8</h2>
+                    <h3><a href="https://minimalistbaker.com/">Visitar</a></h3>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <div class="item-1">
+                    <h2>Proyecto 9</h2>
+                    <h3><a href="https://www.rleonardi.com/">Visitar</a></h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto"  data-aos="zoom-in">
+        <h1 id="texto-contacto">Contacto</h1>
+        <div class="header-bar-3"></div>
+
+            <ul class="medios-contacto">
+                <li>
+                    <a class="fas fa-envelope"></a> 
+                    <br>
+                    <span id="span-1">enzosorrenti5@gmail.com</span>
+                </li>
+                <li>
+                    <a class="fas fa-phone"></a>
+                    <br>
+                    <span id="span-2">223-6850583</span>
+                </li>
+                <li>
+                    <a target="_BLANCK" href="https://github.com/DesignEnzo" class="fab fa-github-square"></a>
+                    <br>
+                    <span id="span-3">GitHub</span>
+                </li>
+                <li>
+                    <a target="_BLANCK" href="https://www.facebook.com/etr.ox.14/" class="fab fa-facebook"></a>
+                    <br>
+                    <span id="span-4">Facebook</span>
+                </li>
+            </ul>
+
+    </section>
+
+    <footer>
+            <h3>Hecha por <b style="color: #04c2c9">Sorrenti Enzo</b></h3>
+            <h5>Copyrigth © 2023</h5>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+    <!--Libreria de las particulas-->
+    <script src="particles.min.js"></script>
+    <script src="particulasActivacion.js"></script>
+
+    <!--Inicializacion de la libreria de Scroll Animado-->
+     <script>
+        AOS.init();
+    </script>
+    
+</body>
+</html>
